@@ -9,4 +9,7 @@ echo "Type "Hackers" To Show Tools"
 read -p "Terminal_$ " tar
 if [ $tar == "Hackers" ]
 then
-echo "① Type "D" To Open Tool ddos atack"
+echo "① Type "1" To Open Tool ddos atack"
+
+if [ $ter == "1" ]
+then
