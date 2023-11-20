@@ -13,28 +13,19 @@ if [ $tar == "tools" ]
 then
 echo "1- Type "1" To Open Nmap Tool"
 echo " "
-echo "2- Tupe "2" To Open Network Tool"
+echo "2- Type "2" To Open Dos Tool"
 echo " "
-echo "3- Type "3" To Open Dos Tool"
-echo " "
-echo "4- Type "AF" To Open Tool Admin Finder"
-echo " "
-echo "5- Type "WP" To Open Tool Wifi Phisher"
 fi
 read -p "Terminal_$ " ter
 
-if [ $ter == "nws" ]
+if [ $ter == "1" ]
 then
 echo "1- Brute force server pwd  (Bpwd)"
 echo "2- Information of system (ios)"
-echo "3- Survey and detection services (sds)"
-echo "4- Scan server vuln"
-echo "5- Find out the problem with the script (fps)"
-echo "7- Unpacking the packages (utp)"
 fi
 echo " "
-read -p "NWS_$" nws
-if [ $nws == "Bpwd" ]
+read -p "1_$" 1
+if [ $_1 == "11" ]
 then
 echo "Inter port"
 read tar
