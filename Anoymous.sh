@@ -3,12 +3,12 @@ import pyperclip
 
 def convert_to_termux():
     text = entry.get()
-    termux_text = text.replace(" ", "%20")
+    termux_text = text.replace(" ", "%10")
     pyperclip.copy(termux_text)
     label.config(text="Text copied to clipboard in Termux format!")
 
 root = tk.Tk()
-root.title("Termux Tool")
+root.title("Tools")
 
 label = tk.Label(root, text="Enter the text to convert to Termux format:")
 label.pack()
