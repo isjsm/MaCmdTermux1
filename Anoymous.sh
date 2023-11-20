@@ -1,6 +1,6 @@
 apt-get install figlet
 clear
-figlet Tools680
+figlet CmdTools
 
 echo "The Tool Made By : https://t.me/Termux_Commamd"
 
